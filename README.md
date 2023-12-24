@@ -19,7 +19,7 @@ End the program
 
 
 ## Program:
-
+```
 #Program to find the eigen values and eigen vectors.
 #Developed by: NARESH.R
 #RegisterNumber: 23005559
@@ -27,7 +27,7 @@ import numpy as np
 A = [[2,2],[1,3]]
 Values,Vectors = np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(Values,Vectors))
-
+```
 ## Output:
 ![Screenshot 2023-12-24 164850](https://github.com/feryjfgkuyfgewjfgew/EIGENVALUES-AND-EIGENVECTORS/assets/150319377/14e9dbac-040a-410f-82e3-4012174248e7)
 
